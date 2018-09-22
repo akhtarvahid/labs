@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c8884;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li:nth-child(1){
+    margin-left: 100px
+}
+.about{
+    color: #1c8884;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cardsRoot{
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-around;
+    padding:20px;
+}
+.cards{
+    width: 200px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid darkcyan;
+}
+.cards p{
+    text-align: center;
+}
+.moreinfo{
+    padding:10px 20px;
+    margin-right: 10px;
+    background-color: #1c8884;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace
+}
+.editform{
+    text-align: center;
+    padding: 13px;
+    color: darkcyan;
+    font-size: 20px;
+    background: white;
+}
+.inputbox{
+    width: 90%;
+    font-size: 15px;
+    margin:2px;
+    padding: 10px 10px;
+    border: 1px solid darkcyan;
+}
+.label{
+    color: darkcyan;
+    font-size: 20px;
+    font-family: monospace;
+}
+.subheading2{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: darkcyan;
+    border: none;
+}
+.cardHeading{
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    margin: 20px;
+}
+.para{
+    font-size:20px;
+    width:100%;
+    border: none;
+}
