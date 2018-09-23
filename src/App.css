@@ -1,0 +1,117 @@
+
+.about{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+}
+.moreinfo{
+  padding:10px 20px;
+  margin-right: 10px;
+  background-color: #1c8884;
+  color: white;
+  border-radius: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+.inputbox{
+  width: 90%;
+  font-size: 15px;
+  margin:2px;
+  padding: 10px 10px;
+  border: 1px solid darkcyan;
+}
+.label{
+  color: darkcyan;
+  font-size: 20px;
+  font-family: monospace;
+}
+.react-drawer-drawer div{
+  background-color: #e8e8e8;
+}
+/* -------- header ---------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c8884;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li:nth-child(1){
+  margin-left: 100px
+}
+li:hover a{
+  background-color: antiquewhite;
+  color: black;
+}
+
+/* -----section 2----------- */
+.cardsRoot{
+  display:flex;
+  flex-flow:wrap;
+  justify-content:space-around;
+  padding:20px;
+}
+.cards{
+  width: 200px;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid darkcyan;
+}
+.cards p{
+  text-align: center;
+}
+.Collapsible__trigger {
+  cursor: pointer;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #00ac9d;
+  color: white; }
+  .Collapsible__trigger:after {
+    font-family: 'FontAwesome';
+    content: 'V';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms; }
+  .Collapsible__trigger.is-open:after {
+    transform: rotateZ(180deg); }
+  .Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    background-color: grey; }
+
+  /* ----drawer header---- */
+  .drawer-header{
+    display:flex;
+    justify-content:space-between; 
+    padding:15px; 
+    align-items:center;
+    background-color:darkgrey;
+  }
+  .section2{
+    text-align:center;
+    padding:25px;
+  }
+  .section2 div> h2,h5,p, .cards:hover{
+    cursor: pointer;
+  }
